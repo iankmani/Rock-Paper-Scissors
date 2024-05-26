@@ -25,7 +25,7 @@
         font-size: 1.6rem;
     }
 
-    .nav {
+    .app {
         font-size: 1.3rem;
         width: 100%;
         display: flex;
@@ -35,7 +35,7 @@
         margin-bottom: 10px;
     }
 
-    .nav .cp {
+    .app .cp {
         display: flex;
     }
 
@@ -44,7 +44,7 @@
         margin-right: 10px;
     }
 
-    .nav p {
+    .app p {
         margin: 20px;
     }
 
@@ -123,7 +123,7 @@
 
 
 @media (max-width: 525px) {
-    .nav {
+    .app {
         font-size: 10px;
     }
 
@@ -138,7 +138,7 @@
 }
 
 @media (max-width: 470px) {
-    .nav {
+    .app {
         font-size: 9px;
         display: grid;
         justify-content: center;
