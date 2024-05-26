@@ -64,7 +64,7 @@
         text-align: top;
     }
 
-    #resultsection {
+    #resultDisplay {
         width: 100%;
         height: 60px;
         background-color: var(--secondarycolor);
@@ -75,7 +75,7 @@
         margin-bottom: 20px;
     }
 
-    #resultsection h4 {
+    #resultDisplay h4 {
         text-align: center;
         font-size: 40px;
     }
@@ -121,7 +121,7 @@
     }
 }
 
-/* xs */
+
 @media (max-width: 525px) {
     .nav {
         font-size: 10px;

@@ -6,7 +6,7 @@ const emojis = {
 };
 const playersection = document.getElementById("playersection");
 const computersection = document.getElementById("computersection");
-const resultsection = document.getElementById("resultsection");
+const resultDisplay = document.getElementById("resultDisplay");
 const playerscoredisplay = document.getElementById("playerscoredisplay");
 const computerscoredisplay = document.getElementById("computerscoredisplay");
 let playerscore = 0;
@@ -34,7 +34,7 @@ function PlayGame(playerChoice) {
     console.log(result);
     playersection.innerHTML = ` ${emojis[playerChoice]}`;
     computersection.innerHTML = `${emojis[computerChoice]}`;
-    resultsection.innerHTML = result;
+    resultDisplay.innerHTML = result;
     UpdateScoreDisplay();
 }
 
