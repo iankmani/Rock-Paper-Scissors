@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Manrope:wght@200..800&family=Margarine&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap");
+
+:root {
+    --primarycolor: greenyellow;
+    --secondarycolor: orange;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+}
+
+@media (max-width: 1536px) {
+    html {
+        background-color: var(--primarycolor);
+    }
+
+    body {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.6rem;
+    }
+
+    .nav {
+        font-size: 1.3rem;
+        width: 100%;
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .nav .cp {
+        display: flex;
+    }
+
+    .cp span {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav p {
+        margin: 20px;
+    }
+
+    #computersection {
+        margin-top: 20px;
+        height: 20vh;
+        width: 20vh;
+        border-style: dashed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        border-radius: 5px;
+    }
+
+    #computersection h4 {
+        text-align: top;
+    }
+
+    #resultsection {
+        width: 100%;
+        height: 60px;
+        background-color: var(--secondarycolor);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #resultsection h4 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #playersection {
+        margin-top: 20px;
+        height: 20vh;
+        width: 20vh;
+        border-style: dashed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        border-radius: 5px;
+    }
+
+    #playersection h4 {
+        text-align: center;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .choices button {
+        height: 18vh;
+        width: 100px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 10px 10px 30px 10px;
+        cursor: pointer;
+        font-size: 0.7rem;
+        padding-bottom: 10px;
+    }
+
+    .choices button span {
+        font-size: 50px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+/* xs */
+@media (max-width: 525px) {
+    .nav {
+        font-size: 10px;
+    }
+
+    .cp span {
+        margin-right: 20px;
+    }
+
+    .choices button span {
+        font-size: 45px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+@media (max-width: 470px) {
+    .nav {
+        font-size: 9px;
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+}

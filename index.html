@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="nav">
+            <p class="copy"><b>&copy 2024</b> <a href="https://www.linkedin.com/in/ian-tos-/" target="_blank">Ian
+                    Kimani</a></p>
+            <div class="cp">
+                Computer
+                <span id="computerscoredisplay"> 0</span>
+                Player
+                <span id="playerscoredisplay">0</span>
+            </div>
+        </div>
+        <h4>Computer</h4>
+        <div id="computersection">
+            <div class="emojibox">👊</div>
+        </div>
+        <div id="resultsection">
+            <h4></h4>
+        </div>
+        <h4>Player</h4>
+        <div id="playersection">
+            <div class="emojibox">✌️</div>
+        </div>
+        <div class="choices">
+            <button onclick="PlayGame('rock')"><span>👊</span>Rock</button>
+            <button onclick="PlayGame('paper')"><span>✋</span>Paper</button>
+            <button onclick="PlayGame('scissors')"><span>✌️</span>Scissors</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
