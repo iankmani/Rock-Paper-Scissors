@@ -48,7 +48,7 @@
         margin: 20px;
     }
 
-    #computersection {
+    #computerDisplay {
         margin-top: 20px;
         height: 20vh;
         width: 20vh;
@@ -60,7 +60,7 @@
         border-radius: 5px;
     }
 
-    #computersection h4 {
+    #computerDispay h4 {
         text-align: top;
     }
 
@@ -80,7 +80,7 @@
         font-size: 40px;
     }
 
-    #playersection {
+    #playerDisplay {
         margin-top: 20px;
         height: 20vh;
         width: 20vh;
@@ -92,7 +92,7 @@
         border-radius: 5px;
     }
 
-    #playersection h4 {
+    #playerDisplay h4 {
         text-align: center;
     }
 

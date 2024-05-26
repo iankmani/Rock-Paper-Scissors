@@ -4,8 +4,8 @@ const emojis = {
     paper: "✋",
     scissors: "✌️",
 };
-const playersection = document.getElementById("playersection");
-const computersection = document.getElementById("computersection");
+const playerDisplay = document.getElementById("playerDisplay");
+const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
 const playerscoredisplay = document.getElementById("playerscoredisplay");
 const computerscoredisplay = document.getElementById("computerscoredisplay");
@@ -32,8 +32,8 @@ function PlayGame(playerChoice) {
         computerscore++;
     }
     console.log(result);
-    playersection.innerHTML = ` ${emojis[playerChoice]}`;
-    computersection.innerHTML = `${emojis[computerChoice]}`;
+    playerDisplay.innerHTML = ` ${emojis[playerChoice]}`;
+    computerDisplay.innerHTML = `${emojis[computerChoice]}`;
     resultDisplay.innerHTML = result;
     UpdateScoreDisplay();
 }
